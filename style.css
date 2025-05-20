@@ -34,7 +34,7 @@ header{
 .cabeca{
     width: 274px;
     justify-content: center;
-    align-items: center;
+        display: flex;
 }
 
 .redes{
