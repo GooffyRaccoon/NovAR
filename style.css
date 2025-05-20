@@ -31,6 +31,10 @@ header{
     display: flex;
 }    
 
+.cabeça{
+    width: 274px;
+}
+
 .redes{
     width: 78px;
     height: 78px;
