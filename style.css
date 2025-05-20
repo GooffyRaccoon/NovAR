@@ -1,1 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+:root{
+    --mephiles:#0A3B6C;
+    --branco: #fff;
+    --transbranco: rgba(255, 255, 255, 0.2);
+    --algo-gradiente: linear-gradient(#000, #434343);
+}
+
+/*isso daq serve para todo o corpo da pagina*/
+body{
+    font-family: "Inter", sans-serif;
+    background: var(--mephiles);
+    color: var(--branco); 
+    justify-content: center;
+    align-content: center;
+}
+
+/*isso daq serve pra cada class na pagina*/
+header{
+    background-image: var(--mephiles);
+    height: 100px;
+    justify-content: space-around;
+    align-content: center;
+    margin-left: -50px;
+    margin-right: -50px;
+    display: flex;
+}    
