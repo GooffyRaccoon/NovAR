@@ -11,16 +11,16 @@
     --algo-gradiente: linear-gradient(#000, #434343);
 }
 
-/*isso daq serve para todo o corpo da pagina
+/*isso daq serve para todo o corpo da pagina*/
 body{
     font-family: "Inter", sans-serif;
     background: var(--mephiles);
     color: var(--branco); 
     justify-content: center;
     align-content: center;
-}*/
+}
 
-/*isso daq serve pra cada class na pagina
+/*isso daq serve pra cada class na pagina*/
 header{
     background-image: var(--mephiles);
     height: 100px;
@@ -44,4 +44,4 @@ header{
     align-items: center;
     margin-top: 11px;
     margin-bottom: 11px;
-}*/
+}
