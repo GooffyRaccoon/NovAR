@@ -1,20 +1,42 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --pretuncio:#313131;
+    --carlos:#848484;
+    --branco:#DCDCDC;
+    --bler:#4D69A6;
+    --sonic:#305FC5;
+    --mephiles:#0A3B6C;
+    --petroleo:#021B34;
+    --verdura:#106348;
+    --verde:#1FA57F;
+    --grama:#58B23D;
+    --va:#BEE15E;
+    --espere:#E7C84D;
+    --amareluncio:#BF9230;
+    --pare:#C33E3E;
+    --vermelhuncio:#A32D2D;
+    --ash: rgba(255, 255, 255, 0.2);
+    --algo-gradiente: linear-gradient(#000, #434343);
+
+    --fonte: alguem me ajuda;
 }
 
 body {
   font-family: Arial, sans-serif;
-  background-color: #f5f5f5;
-  color: #333;
+  background-color: var(--branco);
+  color: var(--pretuncio);
   line-height: 1.6;
 }
 
 header {
-  background-color: #004aad;
-  color: white;
-  padding: 1rem;
+  background-color: var(--mephiles);
+  color: var(--branco);
+  padding: 0.5rem;
   text-align: center;
   position: fixed;
   width: 100%;
@@ -23,12 +45,34 @@ header {
   z-index: 1000;
 }
 
-main {
-  padding: 6rem 1rem 3rem;
+.minilogo{
+    
 }
 
-h1 {
-  font-size: 1.5rem;
+.titulocabeca{
+    font-size: 1.5rem;
+}
+
+.menulateralcabeca{
+    position: fixed;
+    top: 0;
+    left: -250px;
+    width: 250px;
+    height: 100%;
+    background-color: var(--mephiles);
+    padding: 20px;
+    transition: left 0.5s;
+}
+
+.conteudooo{
+    transition: margin-left 0.5s;
+}
+
+}
+
+
+main {
+  padding: 6rem 1rem 3rem;
 }
 
 p {
@@ -75,18 +119,6 @@ footer {
 
 
 
-/** {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-:root{
-    --mephiles:#0A3B6C;
-    --branco: #fff;
-    --transbranco: rgba(255, 255, 255, 0.2);
-    --algo-gradiente: linear-gradient(#000, #434343);
-}
 
 /*isso daq serve para todo o corpo da pagina
 body{
