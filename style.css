@@ -46,30 +46,8 @@ header {
 }
 
 .minilogo{
-    
+    size: 16.67%;
 }
-
-.titulocabeca{
-    font-size: 1.5rem;
-}
-
-.menulateralcabeca{
-    position: fixed;
-    top: 0;
-    left: -250px;
-    width: 250px;
-    height: 100%;
-    background-color: var(--mephiles);
-    padding: 20px;
-    transition: left 0.5s;
-}
-
-.conteudooo{
-    transition: margin-left 0.5s;
-}
-
-}
-
 
 main {
   padding: 6rem 1rem 3rem;
