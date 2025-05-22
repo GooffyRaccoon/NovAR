@@ -27,22 +27,21 @@
 }
 
 body {
-  font-family: Arial, sans-serif;
-  background-color: var(--branco);
-  color: var(--pretuncio);
-  line-height: 1.6;
+    font-family: Arial, sans-serif;
+    background-color: var(--branco);
+    color: var(--pretuncio);
+    line-height: 1.6;
 }
 
 header {
-  background-color: var(--mephiles);
-  color: var(--branco);
-  padding: 0.5rem;
-  text-align: center;
-  position: fixed;
-  width: 100%;
-  top: 0;
-  left: 0;
-  z-index: 1000;
+    background-color: var(--mephiles);
+    color: var(--branco);
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
 }
 
 .minilogo{
