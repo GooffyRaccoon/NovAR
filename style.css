@@ -26,11 +26,11 @@
     --fonte: alguem me ajuda;
 }
 
-/*body {
-    font-family: Arial, sans-serif;
+body {
+    font-family: mudar isso daqui;
     background-color: var(--branco);
     color: var(--pretuncio);
-    line-height: 1.6;
+    line-height: 75px;
 }
 
 header {
@@ -38,17 +38,24 @@ header {
     color: var(--branco);
     text-align: center;
     position: fixed;
+    max-height: 20%;
     width: 100%;
     top: 0;
     left: 0;
-    z-index: 1000;
+}
+
+.cabecao {
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    height: 200px;
 }
 
 .minilogo{
-    size: 16.67%;
+    scale: 16.67%;
 }
 
-main {
+/*main {
   padding: 6rem 1rem 3rem;
 }
 
