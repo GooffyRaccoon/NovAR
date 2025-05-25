@@ -46,11 +46,23 @@ header {
 .cabecao{
     height: 100px;
     display: flex;
-    justify-content: space-around;}
+    justify-content: space-around;
+}
 
 .minilogo{
-    height: 50px;
+    height: 75px;
     align-self:center;
+}
+
+.titulocabeca{
+    align-self:center;
+    margin:0;
+    
+}
+
+.profile{
+    background: transparent;
+    border: none;
 }
 
 /*main {
