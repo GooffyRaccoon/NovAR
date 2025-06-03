@@ -39,33 +39,42 @@ header {
     background-color: var(--mephiles);
     color: var(--branco);
     position:sticky;
-    height: 100px;
     width: 100%;
     top: 0;
     left: 0;
 }
 
 .cabecao{
-    height: 100px;
+    height: 70px;
     display: flex;
     justify-content: space-around;
 }
 
 .minilogo{
-    height: 75px;
+    height: 50px;
     align-self:center;
 }
 
 .titulocabeca{
-    align-self:center;
-    margin:0;
-    
+    align-self: center;
+    font-size: 30px;
+    margin: 0;
 }
 
 .profile{
     background: transparent;
-    border: none;
+    border: none;    
 }
+
+.pernil{
+    height: 35px;
+}
+
+
+
+
+
+
 
 /*main {
   padding: 6rem 1rem 3rem;
@@ -102,28 +111,9 @@ footer {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*isso daq serve para todo o corpo da pagina
-body{
-    font-family: "Inter", sans-serif;
-    background: var(--mephiles);
-    color: var(--branco); 
+/*
     justify-content: center;
     align-content: center;
-}
 
 /*isso daq serve pra cada class na pagina
 header{
@@ -134,19 +124,4 @@ header{
     margin-left: -50px;
     margin-right: -50px;
     display: flex;
-}    
-
-.cabeca{
-    width: 274px;
-    justify-content: center;
-        display: flex;
-}
-
-.redes{
-    width: 78px;
-    height: 78px;
-    justify-content: center;
-    align-items: center;
-    margin-top: 11px;
-    margin-bottom: 11px;
 }*/
