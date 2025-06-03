@@ -69,7 +69,9 @@ header {
     height: 35px;
 }
 
-.pescosso{
+
+
+/*.pescosso{
     background-color: var(--mephiles);
     color: var(--branco);
     align-content: center;
@@ -80,10 +82,7 @@ header {
     left: 0;
 }
 
-
-
-
-/*main {
+main {
   padding: 6rem 1rem 3rem;
 }
 
