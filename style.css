@@ -69,7 +69,16 @@ header {
     height: 35px;
 }
 
-
+.colarbones{
+    background-color: var(--mephiles);
+    color: var(--branco);
+    align-content: center;
+    display:;
+    justify-content:center;
+    height: 400px;
+    margin-top: 2px;
+    left: 0;
+}
 
 /*.pescosso{
     background-color: var(--mephiles);
