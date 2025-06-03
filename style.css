@@ -39,7 +39,6 @@ header {
     background-color: var(--mephiles);
     color: var(--branco);
     position:sticky;
-    width: 100%;
     top: 0;
     left: 0;
 }
@@ -70,8 +69,16 @@ header {
     height: 35px;
 }
 
-
-
+.pescosso{
+    background-color: var(--mephiles);
+    color: var(--branco);
+    align-content: center;
+    display: grid;
+    justify-content:center;
+    height: 60px;
+    margin-top: 2px;
+    left: 0;
+}
 
 
 
@@ -111,9 +118,28 @@ footer {
 
 
 
-/*
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*isso daq serve para todo o corpo da pagina
+body{
+    font-family: "Inter", sans-serif;
+    background: var(--mephiles);
+    color: var(--branco); 
     justify-content: center;
     align-content: center;
+}
 
 /*isso daq serve pra cada class na pagina
 header{
@@ -124,4 +150,19 @@ header{
     margin-left: -50px;
     margin-right: -50px;
     display: flex;
+}    
+
+.cabeca{
+    width: 274px;
+    justify-content: center;
+        display: flex;
+}
+
+.redes{
+    width: 78px;
+    height: 78px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 11px;
+    margin-bottom: 11px;
 }*/
