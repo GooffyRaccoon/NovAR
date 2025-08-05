@@ -1,68 +1,241 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-  	<meta charset="UTF-8" />
-  	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>NovAR</title>
-  	<link rel="stylesheet" href="style.css" />
+<html lang="pt-br"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NovAR</title>
+    <link rel="stylesheet" href="style.css">
+        <!-- Inter: 400 -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400&amp;display=swap" rel="stylesheet">
+        <!-- ABeeZee: 400 -->
+    <link href="https://fonts.googleapis.com/css2?family=ABeeZee:wght@400&amp;display=swap" rel="stylesheet">
+        <!-- Roboto: 400, 700 -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&amp;display=swap" rel="stylesheet">
+        <!-- Crimson Text: 400, 700 -->
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;700&amp;display=swap" rel="stylesheet">
+        <!-- Roboto Condensed: 400, 700 -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&amp;display=swap" rel="stylesheet">
+        <!-- Cormorant Garamond: 400 -->
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400&amp;display=swap" rel="stylesheet">
 </head>
 <body>
+    <header>
+        <div class="cabelo">
+            <div class="piolho">
+                <a class="loguinho" href="index.html">
+                    <img src="loguinho.png" alt="Logo do aplicativo NovAR, a árvore de Araucária">
+                </a>
+                <img class="divisaocabelo" src="risquin1.png" alt="">
+            </div>
+            <p class="textcabelo">Você está visualizando o Portal de Araucária: NovAR</p>
+            <img class="xcabelo" src="xzin.png" alt="">
+        </div>
+    </header>
 
-<header>
-	<div class="cabecao">
-    	<img class="minilogo" src="minilogo.png" alt="Logo NovAR">
-    	<h1 class="titulocabeca">NovAR</h1>
-        <button class="profile">
-        	<img class="pernil" src="perfil.png" alt="Entre ou cadastre-se">
-        </button>
-    </div>
-</header>
-    
-<!---<section class="pescosso">
-	<section> 
-		<form action="/action_page.php">
-    		<input type="search" id="searchch" name="searchch">
-        	<input type="submit" value="aaah">
-    	</form>
-	</section>
-		<button class="3barras">
-     	 	<img class="barras" src="baras.png" alt="Acessar outras abas">
-    	</button>
-</section>--->
+    <section class="cabecao">
+            <a class="logo" href="index.html">
+                <img src="logo.png" alt="Logo do aplicativo NovAR, a árvore de Araucária, com a palavra NOVAR na frente">
+            </a>
+            <a class="topnavegation" href="https://www.google.com" target="_self" rel="noopener">Página Inicial</a>
+            <a class="topnavegation" href="https://www.google.com" target="_self" rel="noopener">Notícias Gerais</a>
+            <a class="topnavegation" href="https://www.google.com" target="_self" rel="noopener">Arquivo Histórico</a>
+            <a class="topnavegation" href="https://www.google.com" target="_self" rel="noopener">Pontos Turísticos</a>
+            <a class="topnavegation" href="https://www.google.com" target="_self" rel="noopener">Faça o Login ou <br> Cadastre-se Agora!</a>
+            <a class="perfil" href="login.html">
+                <img src="perfil.png" alt="Acesse seu perfil">
+            </a>
+    </section>
 
-<section class="torsso">
-	<div class="colarbones">
-		<h1>Olá :)</h1>
-        <p>Experimente o nosso aplicativo para Android e IOS!</p>
-        <p>Quer ficar sabendo tudo sobre Araucária? Por meio do NovAR: Portal de Araucária você terá acesso a tudo na palma das suas mãos.</p>
-    	<img class=logao src="logo.png" alt="Logo do aplicativo NovAR">
-    </div>
-    
-    <div class="bellybutton">
-    	<button class="baixar">
-     	 	<a href="www.google.com">Baixe Agora!</a>
-    	</button>
-    </div>
-    
-    <div class="sobreoapp">
-    	<h1>Sobre o NovAR</h1>
-        <p>O NovAR é uma plataforma de mídia social e informativo sobre a cidade de Araucária. Por meio dele, é possível que os usuários compartilhem suas ideias, participem de conversas amigáveis com outros moradores da cidade. 
-        <p>O aplicativo também possui varias abas especificas para a promoção de empregos, alavancagem de pequenos negócios e eventos da cidade, para além da divulgação de outras aplicações já existentes do municipio.</p>
-	</div>
-    
-    <div class="sobrenos">
-    	<h1>Conheça a AR3LS!</h1>
-        <p>Somos uma empresa indie, sinta-se a vontade para nos ajudar como quiser!</p>
-        <button>Fazer Pix</button>
-        <button>Pagar terapia</button>
-        <button>Doação imobiliar</button>
-	</div>
-</section>
+    <section class="carroselfilhadaputa">
+        <div class="carrossel-container">
+            <div class="carrossel-slides" id="carrosselSlides" style="transform: translateX(-200%);">
+                <div class="carrossel-slide">
+                    <img src="slide1.png" alt="Gatinho 1">
+                </div>
+                <div class="carrossel-slide">
+                    <img src="slide2.png" alt="Gatinho 2">
+                </div>
+                <div class="carrossel-slide">
+                    <img src="slide3.png" alt="Gatinho 3">
+                </div>
+                <div class="carrossel-slide">
+                    <img src="slide4.jpg" alt="Gatinho 3">
+                </div>
+                <div class="carrossel-slide">
+                    <img src="slide5.webp" alt="Gatinho 3">
+                </div>
+                <div class="carrossel-slide">
+                    <img src="slide6.webp" alt="Gatinho 3">
+                </div>
+                <div class="carrossel-slide">
+                    <img src="slide7.webp" alt="Gatinho 3">
+                </div>
+                <div class="carrossel-slide">
+                    <img src="slide8.webp" alt="Gatinho 3">
+                </div>
+                <div class="carrossel-slide">
+                    <img src="slide9.png" alt="Gatinho 3">
+                </div>
+            </div>
+                <button class="carrossel-seta carrossel-seta-esquerda" id="carrosselSetaEsquerda">◀</button>
+                <button class="carrossel-seta carrossel-seta-direita" id="carrosselSetaDireita">▶</button>
+                <div class="carrossel-indicadores" id="carrosselIndicadores"><span class="carrossel-indicador" data-index="0"></span><span class="carrossel-indicador" data-index="1"></span><span class="carrossel-indicador ativo" data-index="2"></span><span class="carrossel-indicador" data-index="3"></span><span class="carrossel-indicador" data-index="4"></span><span class="carrossel-indicador" data-index="5"></span><span class="carrossel-indicador" data-index="6"></span><span class="carrossel-indicador" data-index="7"></span><span class="carrossel-indicador" data-index="8"></span></div>
+                    <div class="txtcarr">
+                        <h1>Seja Bem Vindo(a) ao Portal de Araucária: NovAR!</h1>
+                        <h2>Aqui você encontra tudo que deseja saber sobre a cidade paranaense.</h2>
+                        <button class="butt">Saiba Mais
+                            <span class="buttset">&gt;</span>
+                        </button>
+                    </div>
+        <script src="script.js"></script>
+        <div class="gradiente-entre"></div>
+     </div></section>
 
-<footer>
-	<img class="minilogo" src="minilogo.png" alt="Logo NovAR">
-	<h4>Contate-nos</h4>
-    <p>Apenas Whatsapp (69) 9 4200-9823</p>
-	<img class="redes" src="facebook.png" alt="Facebook NovAR">
-	<img class="redes" src="instagram.png" alt="Instagram NovAR">
-</footer>
+    <section class="notrec">
+        <h1>NOTÍCIAS RECENTES</h1>        
+        <div class="bloconot">
+            <div class="cardnot">
+                <p class="site">SITE DA NOTICIA 1</p>
+                    <a class="noticia" href="site.comAAAAAAAAAAA">
+                        <img src="capa-noticia.png" alt="Capa da notícia">
+                    </a>
+                <p class="subtitulo">URGENTE! Aluna É Agredida Pela Própria Colega De Classe No Colégio</p>
+                <a href="https://www.google.com" class="cliquenot" target="_self" rel="noopener">Clique Para Saber Mais</a>
+                
+                <div class="not2">
+                    <div class="infonot"></div>
+                    <p>Outra Noticia Impressionante Aqui Nesse Espaço Incrível</p>
+                </div>
+            </div>
+
+            <div class="cardnot">
+                <p class="site">SITE DA NOTICIA 2</p>
+                    <a class="noticia" href="site.comAAAAAAAAAAA">
+                        <img src="capa-noticia.png" alt="Capa da notícia">
+                    </a>
+                <p class="subtitulo">Estudantes Criam Um Projeto Muito Legal(!!!) E Eficiente Para Araucária.</p>
+                <a href="https://www.google.com" class="cliquenot" target="_self" rel="noopener">Clique Para Saber Mais</a>
+                
+                <div class="not2">
+                    <div class="infonot"></div>
+                    <p>Outra Noticia Impressionante Aqui Nesse Espaço Incrível</p>
+                </div>
+            </div>
+
+            <div class="cardnot">
+                <p class="site">SITE DA NOTICIA 3</p>
+                    <a class="noticia" href="site.comAAAAAAAAAAA">
+                        <img src="capa-noticia.png" alt="Capa da notícia">
+                    </a>
+                <p class="subtitulo">Geraldo Vias É Visto No Parque Cachoeira Em Araucária</p>
+                <a href="https://www.google.com" class="cliquenot" target="_self" rel="noopener">Clique Para Saber Mais</a>
+                
+                <div class="not2">
+                    <div class="infonot"></div>
+                    <p>Outra Noticia Impressionante Aqui Nesse Espaço Incrível</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="appinfo">
+        <h2 class="title">CONHEÇA O NOSSO APP!</h2>
+        <div class="row">
+            <div class="imgbox">
+                <img src="iconeapp.png" alt="Logo NovAR">
+            </div>
+
+            <div class="desc">
+                <p>Quer ficar sabendo tudo sobre Araucária?<br>
+                   Por meio do nosso App você terá acesso a tudo à distância de um clique!<br>
+                   Disponível para Android e iOS.
+                </p>
+                <a href="#" class="butt">BAIXAR AGORA</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="ideiainfo">
+        <h3 class="title">SOBRE A IDEIA</h3>
+        <div class="row">
+            <div class="desc">
+                <p>O NovAR é uma plataforma de mídia social e informativo sobre a cidade de Araucária.<br>
+                    Participe de conversas amigáveis com outros moradores da cidade!
+                </p>
+            </div>
+            <a href="#" class="butt">SAIBA MAIS</a>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+    <footer>
+  <div class="footer-conheca">
+    <h2>CONHEÇA-NOS!</h2>
+    <div class="conheca-cards">
+      <div class="conheca-card">
+        <div class="conheca-img"></div>
+        <div class="conheca-info">
+          <h3 class="conheca-nome" style="color: #097442;">LAILA</h3>
+          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's</p>
+          <small>Lorem Ipsum is simply</small>
+        </div>
+      </div>
+      <div class="conheca-card">
+        <div class="conheca-img"></div>
+        <div class="conheca-info">
+          <h3 class="conheca-nome" style="color: #e7b700;">LEILA</h3>
+          <p style="color: #e7b700;">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's</p>
+          <small>Lorem Ipsum is simply</small>
+        </div>
+      </div>
+      <div class="conheca-card">
+        <div class="conheca-img"></div>
+        <div class="conheca-info">
+          <h3 class="conheca-nome" style="color: #2957ab;">LETICIA</h3>
+          <p style="color: #2957ab;">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's</p>
+          <small>Lorem Ipsum is simply</small>
+        </div>
+      </div>
+      <div class="conheca-card">
+        <div class="conheca-img"></div>
+        <div class="conheca-info">
+          <h3 class="conheca-nome" style="color: #c1272d;">STEPHANY</h3>
+          <p style="color: #c1272d;">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's</p>
+          <small>Lorem Ipsum is simply</small>
+        </div>
+      </div>
+    </div>
+    <div class="footer-saiba-mais">
+        <button>SAIBA MAIS SOBRE A AR3LS</button>
+    </div>
+  </div>
+
+        <div class="canela">
+            <a class="gmail" href="mailto:portalnovar@gmail.com" target="_blank" rel="noopener">portalnovar@gmail.com</a>
+            <a class="canlogo" href="index.html">
+                <img src="logo.png" alt="Logo do aplicativo NovAR, a árvore de Araucária, com a palavra NOVAR na frente">
+            </a>
+            <div class="redes">
+                <a class="redesocial" href="#" title="Facebook">
+                    <img src="facebook.png" alt="Abra nossa pagina do facebook">
+                </a>
+                <a class="redesocial" href="#" title="Instagram">
+                    <img src="insta.png" alt="Abra nossa pagina do instagram">
+                </a>
+                <a class="redesocial" href="#" title="Twitter">
+                    <img src="twitter.png" alt="Abra nossa pagina do twitter">
+                </a>
+            </div>
+        </div>
+        <div class="tornozelo">
+            <p class="torntxt">Contate-Nos Através do Nosso E-mail, ou Visite Nossas Redes Sociais</p>
+            <p class="torntxt2">Todo o conteúdo desse site está publicado sob licença.</p>
+        </div>
+    </footer>
+
+</body></html>
